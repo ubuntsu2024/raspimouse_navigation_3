@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # raspimouse_navigation_3
 Navigation package for Raspberry Pi Mouse.
 
@@ -44,3 +45,6 @@ Please place a map in [maps](./maps) and launch nodes with `robot.launch` and `p
 ## License
 
 This repository is licensed under the MIT license, see [LICENSE](./LICENSE).
+=======
+# raspimouse_navigation_3
+>>>>>>> 87d0258ebb500b13fca6b0919c0d0ccd98429815
