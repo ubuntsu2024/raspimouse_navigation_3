@@ -2,8 +2,6 @@
   <include file="$(find raspimouse_navigation_3)/launch/run_move_base.launch"/>
   <include file="$(find raspimouse_navigation_3)/launch/run_amcl.launch"/>
 
-  <node pkg="rviz" type="rviz" name="rviz" args="/opt/ros/kinetic/share/rviz/default.rviz"/>
-
   <arg name="map_file" default="$(find raspimouse_navigation_3)/maps/map2024.yaml"/>
 
   <node name="map_server" pkg="map_server" type="map_server" args="$(arg map_file)" output="screen"/>
